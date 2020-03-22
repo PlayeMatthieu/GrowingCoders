@@ -11,6 +11,6 @@
 
 ---
 
-[:seedling: Over GrowingCoders ](/docs/about.md)
-[:rocket: RoadMap](/docs/roadmap.md)
+[:seedling: Over GrowingCoders ](Docs/about.md)
+[:rocket: RoadMap](Docs/roadmap.md)
 [testpage](testpage.md)
