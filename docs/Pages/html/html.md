@@ -1,6 +1,6 @@
 # HTML 5 Samenvatting
 <p align="center">
-  <img height="250" src="../../Assets/Img/logos/HTML5.png">
+  <img height="250" src="Assets/Img/logos/HTML5.png">
 </p>
 
 ## Boilerplate
