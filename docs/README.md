@@ -1,4 +1,4 @@
-<img src="Assets/Img/logos/GrowingCoders.svg" alt="Logo GrowingCoders">
+![img](Assets/Img/logos/GrowingCoders.svg ":no-zoom")
 
 ### Welkom op GrowingCoders
 
@@ -10,7 +10,9 @@ GrowingCoders is een opensource project gemaakt voor studenten die leren program
 - C#
 - SQL
 - GIT
+- Markdown
 
 Er zullen meer samenvattingen van talen online komen in de loop van tijd.
 
 > :fire: Sla zeker GrowingCoders op in je favorieten.
+

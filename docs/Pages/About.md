@@ -1,5 +1,3 @@
 # Over ons
 
-Emoji
-
-https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+GrowingCoders is een groep studenten die hun programmeerkennis willen centraliseren op 1 plaats. Zo kunnen beginnende als gevorderde snel vinden wat ze nodig hebben.

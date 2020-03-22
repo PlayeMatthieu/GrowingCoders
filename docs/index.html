@@ -16,17 +16,23 @@
     </nav>
     <div id="app"></div>
   </body>
-  <div id="app"></div>
   <script>
     window.$docsify = {
       name: 'GrowingCoders',
-      repo: 'https://github.com/docsifyjs/docsify/', // Veranderen naar eigen repo
+      repo: 'https://github.com/PlayeMatthieu/GrowingCoders', // Veranderen naar eigen repo
       loadSidebar: true,
       alias: {
       '/.*/_sidebar.md': '/_sidebar.md'
       },
       subMaxLevel: 2,
       loadNavbar : true,
+      tabs: {
+        persist    : true,      // default
+        sync       : true,      // default
+        theme      : 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
       search: 'auto', // default
     // complete configuration parameters
     search: {
@@ -40,9 +46,12 @@
       }
     }
   </script>
+  <script src="Assets/js/main.js"></script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 </body>
 </html>
