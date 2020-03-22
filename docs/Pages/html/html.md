@@ -1,7 +1,5 @@
 # HTML 5 Samenvatting
-<p align="center">
-  <img height="250" src="https://playematthieu.github.io/GrowingCoders/Assets/Img/logos/HTML5.png">
-</p>
+![test](https://playematthieu.github.io/GrowingCoders/Assets/Img/logos/HTML5.png ":no-zoom")
 
 ## Boilerplate
 
