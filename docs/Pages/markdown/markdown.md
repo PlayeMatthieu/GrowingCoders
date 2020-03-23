@@ -1,6 +1,9 @@
+<div align="center">
+
 # Documenten schrijven in Markdown
 
-# Markdown
+![test](../../Assets/Img/logos/Markdown.png ":no-zoom")
+</div>
 
 ## Headings
 

@@ -1,5 +1,9 @@
+<div align="center">
+
 # HTML 5 Samenvatting
-![test](https://playematthieu.github.io/GrowingCoders/Assets/Img/logos/HTML5.png ":no-zoom")
+
+![test](../../Assets/Img/logos/HTML5.png ":no-zoom")
+</div>
 
 ## Boilerplate
 
