@@ -2,7 +2,7 @@
 
 # GIT & Github
 
-![test](../../Assets/Img/logos/Octocat.png ":no-zoom")
+![Logo Octocat from Github.io](../../Assets/Img/logos/Octocat.png ":no-zoom")
 </div>
 
 ``` bash

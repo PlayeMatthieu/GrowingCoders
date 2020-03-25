@@ -2,5 +2,5 @@
 
 # C# Advanced
 
-![test](../../Assets/Img/logos/cSharp.png ":no-zoom")
+![C# Logo](../../Assets/Img/logos/CSharp.png ":no-zoom")
 </div>

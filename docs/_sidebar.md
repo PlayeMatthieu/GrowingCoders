@@ -1,5 +1,9 @@
 <!-- Pages/_sidebar.md -->
 
+[:house: Startpagina](README.md)
+
+---
+
 * [HTML](Pages/html/html.md)
 * [CSS](Pages/css/css.md)
 * [Javascript](Pages/Javascript/js.md)
@@ -8,8 +12,3 @@
 * [SQL](Pages/sql/sql.md)
 * [Git](Pages/git/git.md)
 * [Markdown](Pages/markdown/markdown.md)
-
----
-
-[:seedling: Over GrowingCoders ](Pages/About.md)
-[:rocket: RoadMap](Pages/roadmap.md)

@@ -2,7 +2,7 @@
 
 # CSS 3 Samenvatting
 
-![test](../../Assets/Img/logos/css.png ":no-zoom")
+![CSS 3 Logo](../../Assets/Img/logos/css.png ":no-zoom")
 </div>
 
 ``` css

@@ -288,6 +288,8 @@ body:not([data-platform^="Mac"]) *::-webkit-scrollbar-track {
     position: relative;
     overflow: hidden;
     margin: var(--code-block-margin);
+    margin-left: 1em;
+    margin-right: 1em;
     padding: 0;
     border-radius: var(--code-block-border-radius)
 }
@@ -1742,7 +1744,7 @@ body .sidebar {
 
 .sidebar .search {
     order: var(--search-flex-order);
-    margin: var(--search-margin);
+    /* margin: var(--search-margin); */
     padding: var(--search-padding);
     background: var(--search-background)
 }
@@ -1912,7 +1914,8 @@ body .sidebar {
     --theme-hue: 105;
     --theme-saturation: 90%;
     --theme-lightness: 45%;
-    --theme-color: hsl(var(--theme-hue), var(--theme-saturation), var(--theme-lightness));
+    /* --theme-color: hsl(var(--theme-hue), var(--theme-saturation), var(--theme-lightness)); */
+    --theme-color: #589C17;
     --modular-scale: 1.333;
     --modular-scale--2: calc(var(--modular-scale--1) / var(--modular-scale));
     --modular-scale--1: calc(var(--modular-scale-1) / var(--modular-scale));
@@ -1958,7 +1961,7 @@ body .sidebar {
 }
 
 :root {
-    --content-max-width: 55em;
+    --content-max-width: 75em;
     --blockquote-background: var(--mono-tint3);
     --blockquote-border-style: solid;
     --blockquote-border-radius: var(--border-radius-m);

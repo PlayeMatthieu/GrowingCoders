@@ -1,0 +1,13 @@
+/* CUSTOM CSS */
+
+/* .markdown-section h1:hover,.markdown-section h2:hover,.markdown-section h3:hover,.markdown-section h4:hover.markdown-section h5:hover.markdown-section h6:hover,.markdown-section a:hover {
+    color: #589C17;
+} */
+.emoji{
+    height: 1.2rem;
+    vertical-align: middle;
+}
+
+:root{
+    --code-inline-background: #589c174a;
+}

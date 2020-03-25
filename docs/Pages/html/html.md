@@ -2,7 +2,7 @@
 
 # HTML 5 Samenvatting
 
-![test](../../Assets/Img/logos/HTML5.png ":no-zoom")
+![Logo HTML 5](../../Assets/Img/logos/HTML5.png ":no-zoom")
 </div>
 
 ## Boilerplate

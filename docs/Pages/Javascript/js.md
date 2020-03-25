@@ -2,7 +2,7 @@
 
 # Javascript
 
-![test](../../Assets/Img/logos/Javascript.png ":no-zoom")
+![Logo Javascript](../../Assets/Img/logos/Javascript.png ":no-zoom")
 </div>
 
 ``` javascript

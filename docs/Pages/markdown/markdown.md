@@ -2,7 +2,7 @@
 
 # Documenten schrijven in Markdown
 
-![test](../../Assets/Img/logos/Markdown.png ":no-zoom")
+![Markdown logo](../../Assets/Img/logos/Markdown.png ":no-zoom")
 </div>
 
 ## Headings
