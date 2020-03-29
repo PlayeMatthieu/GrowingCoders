@@ -4,16 +4,16 @@
 
 ---
 
-* [HTML (In the make)](Pages/html/html.md)
-* [CSS (coming soon) ](Pages/css/css.md)
-* [Javascript (coming soon)](Pages/Javascript/js.md)
-* [C# Basics (coming soon)](Pages/Csharp/basics.md)
-* [C# Advanced (coming soon)](Pages/Csharp/advanced.md)
-* [SQL (coming soon)](Pages/sql/sql.md)
-* [Git (coming soon)](Pages/git/git.md)
+* [HTML](Pages/html/html.md)
+* [CSS](Pages/css/css.md)
+* [Javascript](Pages/Javascript/js.md)
+* [C# Basics](Pages/Csharp/basics.md)
+* [C# Advanced](Pages/Csharp/advanced.md)
+* [SQL](Pages/sql/sql.md)
+* [Git](Pages/git/git.md)
 * [Markdown](Pages/markdown/markdown.md)
 
 --- 
 
-* [Snippets (coming soon](Pages/helpfull/snippets.md)
-* [Usefull links (coming soon)](Pages/helpfull/links.md)
+* [Snippets](Pages/helpfull/snippets.md)
+* [Handige Links](Pages/helpfull/links.md)

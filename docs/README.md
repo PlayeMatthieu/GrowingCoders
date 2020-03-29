@@ -6,9 +6,7 @@
 ## Welkom op GrowingCoders {docsify-ignore}
 
 GrowingCoders is an open source project for students learning to program. Using GrowingCoders you can find summaries if you have forgotten something about programming. 
-I made this in the first place to easily find my summaries. But I opening it for all my fellow students who are also learning to program.
-
-> :fire: Make sure to save this page!
+I made this in the first place to easily find my summaries. But I opening it for all my fellow students who are also learning to program. At the moment all summaries are in dutch. We are working on translating these into English as well.
 
 ### Quick start guide
 

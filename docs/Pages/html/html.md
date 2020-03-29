@@ -5,7 +5,7 @@
 ![Logo HTML 5](../../Assets/Img/logos/HTML5.png ":no-zoom")
 </div>
 
-## Boilerplate
+## Opbouw html
 
 Een html pagina heeft een basis opbouw van volgende structuur:
 
@@ -24,6 +24,8 @@ Een html pagina heeft een basis opbouw van volgende structuur:
 ```
 
 ## Tekst
+
+Zoals op een blad papier kan er in html een onderscheid gemaakt worden tussen verschillende type teksten. Zo heb je hoofdtitels. Deze hebben zes verschillende niveaus en kunnen later via [css](pages/css/css.md) aangepast worden. Hieronder zijn de verschillende teksttags.
 
 ### Header tags
 
@@ -88,6 +90,8 @@ Een html pagina heeft een basis opbouw van volgende structuur:
 
  ## Links
 
+ Een link in html is een verwijzing naar een andere pagina of sectie in het document.
+
 ``` html
 <a href="link website"> Klik hier om mijn website te zien </a>
 ``` 
@@ -97,7 +101,7 @@ Een html pagina heeft een basis opbouw van volgende structuur:
 - Relatief = Vertrekt vanuit de 'root' van de folder
 - Absolute = Hier moet je de volledige 'url' ingeven
 
-### Verwwijzing in de pagina
+### Verwijzing in de pagina
 
 ``` html
 <a href="#verwijzing">ga naar het hoofdstuk </a>
@@ -157,7 +161,7 @@ Hieronder in de tabel is een lijst van de symantische elementen
 | \<time>    | \<footer>  | \<figcaption> | \<mark>    |
 | \<summary> |            |               |            |
 
-### Template van html pagina met semantische elementen
+In onderste code is een voorbeeld van een html pagina met correcte opbouw volgend de semantische elementen.
 
 ``` html
 <!DOCTYPE html>
@@ -170,35 +174,35 @@ Hieronder in de tabel is een lijst van de symantische elementen
 <body>
     <header>
         <nav>
-
+            <!-- De navbar genest in de header-->
         </nav>
     </header>
     <main>
         <aside>
-
+            <!-- Informatie die links of rechts op de pagina kan worden getoont-->
         </aside>
         <section>
-
+            <!-- Een sectie-->
         </section>
         <section>
             <article>
-
+                <!-- Een artiekel genest in een sectie-->
             </article>
             <article>
-                
+                <!-- Een artiekel genest in een sectie-->
             </article>
         </section>
     </main>
     <footer>
-
+        <!-- De voettekst van onze website-->
     </footer>
 </body>
 </html>
 ``` 
 
-
-
 ## Formulieren
+
+Formulieren worden op 95% van alle websites gebruikt. Voor een contactpagina als voor berekeningen te maken. 
 
 ``` html
 <form method="">
@@ -223,10 +227,47 @@ Hieronder in de tabel is een lijst van de symantische elementen
 ```
 
 ``` html
-<form method="" action="">
+<form method="Post" action="UitTevoerenScript.js">
 
 </form>
 ```
+
+### Input elementen
+
+Met HTML5 heeft de `input` verschillende `type=" "` om aan te duiden wat de input is.
+
+``` html
+<input type="button">               <!-- Knoppen-->
+<input type="checkbox">             <!-- Aanvinkvak-->
+<input type="color">                <!-- Kleurkeuze-->
+<input type="date">                 <!-- Datum-->
+<input type="datetime-local">       <!-- Datum volgens de lokale tijd-->
+<input type="email">                <!-- Mailadres-->
+<input type="file">                 <!-- Bestand kiezen-->
+<input type="hidden">               <!-- Verborgen-->
+<input type="image">                <!-- Afbeelding-->
+<input type="month">                <!-- Enkel maand en jaar kiezen-->
+<input type="number">               <!-- Nummers-->
+<input type="password">             <!-- Wachtwoord-->
+<input type="radio">                <!-- Ronde aanvinkvak-->
+<input type="range">                <!-- Slider-->
+<input type="reset">                <!-- Zal de form resetten-->
+<input type="search">               <!-- Zoek input-->
+<input type="submit">               <!-- knop-->
+<input type="tel">                  <!-- Telefoonnummer-->
+<input type="text">                 <!-- Alles tekst is hier mogelijk-->
+<input type="time">                 <!-- Tijd (uur)-->
+<input type="url">                  <!-- Website link-->
+<input type="week">                 <!-- Week-->
+```
+
+Elk van bovenstaande input kan ook verschillende attributen krijgen.
+
+``` html
+<input type="text" name="Naam van de input" id="Id_Input" placeholder="schrijf hier text" minlength="5" maxlength="10" required>
+```
+De volledige lijst kun je op volgende website vinden: [Input Attibutes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+
 
 ## Meta-elementen
 
