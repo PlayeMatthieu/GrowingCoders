@@ -15,5 +15,5 @@
 
 --- 
 
-* [Snippets (coming soon]()
-* [Usefull links (coming soon)]()
+* [Snippets (coming soon](Pages/helpfull/snippets.md)
+* [Usefull links (coming soon)](Pages/helpfull/links.md)
