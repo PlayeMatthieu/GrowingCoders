@@ -230,5 +230,26 @@ Hieronder in de tabel is een lijst van de symantische elementen
 
 ## Meta-elementen
 
+Wat is een metatag? Een metatag is een element die specifieke informatie bevat over de website. De metatag zal zich altijd tussen het head element bevinden van onze website.
+
+### Voorbeeld van gebruikte metatags op GrowingCoders
+``` html
+<head>
+  <meta charset="UTF-8">
+  <title>GrowingCoders</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="description" content="GrowingCoders is een referentie voor startende programmeurs als ze iets vergeten zijn. Hier kun je snel een eenvoudig vinden wat je zoekt.">
+  <meta name="author" content="GrowingCoders"/>
+  <meta name="application-name" content="GrowingCoders website"/>
+  <meta name="keywords" content="HTML, CSS, Javascript, SQL, C#, Git, Markdown, Snippets, Leren programmeren, GrowingCoders"/>
+  <meta property="og:title" content="GrowingCoders"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://growingcoders.tech/"/>
+  <meta property="og:image" content="https://growingcoders.tech/Assets/Img/logos/GrowingCoders.svg" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+```
+
+
 ## Handige-links
 
