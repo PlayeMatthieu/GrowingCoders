@@ -8,14 +8,14 @@
 GrowingCoders is an open source project for students learning to program. Using GrowingCoders you can find summaries if you have forgotten something about programming. 
 I made this in the first place to easily find my summaries. But I opening it for all my fellow students who are also learning to program. At the moment all summaries are in dutch. We are working on translating these into English as well.
 
-### Quick start guide
+### Quick start guide {docsify-ignore}
 
 - Clone the repo:  ` https://github.com/PlayeMatthieu/GrowingCoders.git ` 
 - Install [docsify](https://docsify.js.org/#/): ` npm install docsify-cli -g (or yarn global add docsify-cli) `  
 - Development run: ``` docsify serve ``` 
 - Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Contributing
+### Contributing {docsify-ignore}
 
 - :fork_and_knife: Fork it!
 - :twisted_rightwards_arrows: Create your branch: ` git checkout -b new-branch `

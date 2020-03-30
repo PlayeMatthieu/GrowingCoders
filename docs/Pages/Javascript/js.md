@@ -7,11 +7,15 @@
 
 ## Inleiding
 
-
+Javascript is een scripttaal om (statische) webpagina's interactief te maken en zo webapplicaties te ontwikkelen. 
 
 ## Variabelen en constanten
 
-
+``` js
+var variabel = ;
+let variabel = ;
+const variabel = ;
+```
 
 ## DOM
 
