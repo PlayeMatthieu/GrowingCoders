@@ -71,7 +71,7 @@ De string wordt zoals je hierboven zien geopend en gesloten met backticks \`. De
 
 ### Convertie van variabelen
 
-Net zoals in [C#](pages/Csharp/basics.md) moet een datatype omgezet worden naar een andere dataype. Dit moet gebeuren bij formulierelementen omdat deze steeds een **string** zal retourneren.
+Net zoals in [C#](pages/Csharp/basics.md) moet een datatype omgezet worden naar een andere dataype.
 
 #### parseInt()
 
@@ -100,6 +100,8 @@ Number("123"); // Retourneerd 123
 Number("123.3"); // Retourneerd 123.3
 Number("123.3RandomTekst"); // Retourneerd NaN
 ```
+
+!> Convertie van variabelen moet altijd gebeuren bij formulierelementen omdat deze steeds een **string** zal retourneren.
 
 ## DOM
 
@@ -290,13 +292,70 @@ Net zoals in het wiskundig rekenen is er voor het programmeren een volgorde van 
 
 ### if-structuur
 
+Met de `if` statement kunnen bepaalde codeblokken uitgevoerd worden als de voorwaarde voldaan is. Ook kan er een `else` gekoppeld worden. Deze zal uitgevoerd worden als de gestelde voorwaarde onwwar is.
+
+```js
+if (x == y) {
+  // Doe iets
+}
+
+// If statement met een else
+if (x == y) {
+  // Doe iets
+} else {
+  // Doe iets anders
+}
+
+if (x == y) {
+  // Doe iets
+} else if (x > y) {
+  // Doe iets
+} else {
+  // DOe iets
+}
+
+// Verkorte versie
+x > y ? true : false;
+```
+
+?> - Na een `else` statement kan een nieuwe `if` statement geplaats worden. <br/> - `if` statements kunnen genest worden in elkaar.
+
 ### Switch
+
+Als je meer mogelijkheen wilt scheiden kun je gebruik maken van een `switch` statement in plaatsen van meerdere `if` statements.
+
+```js
+switch (expressie) {
+  case x:
+    // Code
+    break;
+  case y:
+    // Code
+    break;
+  default:
+  // Code
+}
+```
+
+?> - Elke statement moet eindigen met een `break`. <br/> - Een `string` kan ook worden gegeven als `switch` statement. <br/> - De `default` zal uitgevoerd worden als geen enkele case beantwoord aan de voorwarden.
 
 ## Lussen
 
 ### While
 
+Een `while` statement zal een opdracht of groep opdrachten telkens opnieuw uitvoeren tot het de voorwaarde `false` bereikt.
+
+```js
+while (x >= y) {
+  // Doe iets
+}
+```
+
+!> Het is eenvoudig om in een **oneindige lus** te graken als je variabel vergeet aan te passen binnen je lus.
+
 ### Do...While
+
+!! Hier gestopt
 
 ### For
 
