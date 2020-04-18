@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --flex-container: #2196f3;
+  --flex-item: #2196f3;
+  --main-bg-color: #2196f3;
+  --header-color: #2196f3;
+  --text-color: #2196f3;
+  --btn-bg-color: #2196f3;
+  --btn-text-color: #2196f3;
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+}
+
+main h2 {
+  text-align: center;
+}
+
+p {
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  border: none;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 5px 3px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+}
+
+button:hover {
+  background-color: aqua;
+}
+.container {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "container container cta"
+    "container container cta"
+    "info code cta";
+  grid-gap: 15px 15px;
+  margin: 0.5em 3em 0 3em;
+}
+
+.flex-container {
+  grid-area: container;
+  border: 2px solid black;
+  display: inline;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 8px;
+  background-color: #995db5;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.flex-container-cta {
+  background-color: #995db5;
+}
+.flex-item-cta {
+  background-color: #f7941f;
+}
+
+.item {
+  padding: 0.3em 1em;
+  margin: 10px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #f7941f;
+}
+
+.item:nth-child(2) {
+  background-color: red;
+}
+
+.code {
+  grid-area: code;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.cta {
+  grid-area: cta;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.info {
+  grid-area: info;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+
+/* SWITCH */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.inline-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
