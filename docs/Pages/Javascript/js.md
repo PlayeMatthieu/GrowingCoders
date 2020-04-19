@@ -27,12 +27,12 @@ Zoals je waarschijnlijk zag kan er in Javascript met `//` commentaar geschreven 
 In tegenstelling tot [C#](pages/Csharp/basics.md) is het niet nodig om een datatype mee te geven met onze variabel. In onderstaande lijst zijn de primitieve datatypes dat Javascript gebruikt.
 
 ```js
-let getallen = 5; // Numbers
-let tekenreeks = "naam"; // Strings
-let bool = true; // of False    // Booleon
-let nietGekend; // Undifined
-let niets = null; // Null
-let symbool = Symbol(); // vertegenwoordigt een unieke identificatie
+let getallen = 5;         // Numbers
+let tekenreeks = "naam";  // Strings
+let bool = true;          // of False    // Booleon
+let nietGekend;           // Undifined
+let niets = null;         // Null
+let symbool = Symbol();   // vertegenwoordigt een unieke identificatie
 ```
 
 - [Meer over het datatype Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
@@ -53,7 +53,7 @@ Een geïnitialiseerde variabel heeft een levensduur binnen ons programma. Zo kan
 **Lokale** variabelen worden binnen een functie of een ocdeblok gedeclareerd. Het bereik van die variabel is dan ook beperkt tot die functie of codeblok.
 
 | Omschrijving                                 | var     | let     | const   |
-| -------------------------------------------- | ------- | ------- | ------- |
+|----------------------------------------------|---------|---------|---------|
 | Gedeclareerd **buiten** een function         | globaal | globaal | globaal |
 | Gedeclareerd **buiten** een code block       | globaal | lokaal  | lokaal  |
 | Gedeclareerd **binnen** een code block { … } | globaal | lokaal  | lokaal  |
@@ -96,8 +96,8 @@ let covert = parseFloat("3.14RandomTekens");
 Met de `Number()` methode zal een string ook omgezet worden naar een getal. Soms kan het een **integer** of een **decimaal** zijn. Als je een waarde geeft met tekst zal het **NaN (Not a Number)** retourneren.
 
 ```js
-Number("123"); // Retourneerd 123
-Number("123.3"); // Retourneerd 123.3
+Number("123");              // Retourneerd 123
+Number("123.3");            // Retourneerd 123.3
 Number("123.3RandomTekst"); // Retourneerd NaN
 ```
 
@@ -161,15 +161,15 @@ i.document.write(text); // Schrijft tekst onmiddelijk naar het html document
 Met event-handling staat het toe dat javascript opdrachten op het juiste moment uitvoerd, wanneer de juiste gebeurtenis heeft plaatsgevonden.
 
 ```js
-click; // Enkele klik op element
-mouseover; // Muisaanwijzer boven element
-mouseout; // Muisaanwijzer verlaat element
-mousedown; // Muisknop wordt ingedrukt boven element
-mouseup; // Muisknop wordt losgelaten boven element
-dblclick; // Dubbelklik op element
-mousemove; // Muisaanwijzer beweegt boven element
-mouseenter; // Mouseover variant zonder bubbling
-mouseleave; // Mouseout variant zonder bubbling
+click;        // Enkele klik op element
+mouseover;    // Muisaanwijzer boven element
+mouseout;     // Muisaanwijzer verlaat element
+mousedown;    // Muisknop wordt ingedrukt boven element
+mouseup;      // Muisknop wordt losgelaten boven element
+dblclick;     // Dubbelklik op element
+mousemove;    // Muisaanwijzer beweegt boven element
+mouseenter;   // Mouseover variant zonder bubbling
+mouseleave;   // Mouseout variant zonder bubbling
 ```
 
 Om deze events in onze javascript document te kunnen gebruiken kan bijvoorbeeld op een knop volgende methode toegepast worden:
@@ -225,15 +225,15 @@ Bij capturing wordt de gebeurtenis eerst vastgelegd door het buitenste element e
 let a = 5;
 let b = 6;
 
-a + b; // Optellen                 Antwoord = 11
-a - b; // Aftrekken                Antwoord = -1
-a * b; // Vermenigvuldigen         Antwoord = 30
-a ** b; // Machtsverheffing        Antwoord = 4096
-a / b; // Delen                    Antwoord = 0,83
-a % b; // Modulo                   Antwoord = 5
-a++ && ++a; // Increment           Antwoord = 6
-a-- && --a; // Decrement           Antwoord = 4
-a += 20; // Verhoging              Antwoord = 25       => a = a + 20;
+a + b;        // Optellen             Antwoord = 11
+a - b;        // Aftrekken            Antwoord = -1
+a * b;        // Vermenigvuldigen     Antwoord = 30
+a ** b;       // Machtsverheffing     Antwoord = 4096
+a / b;        // Delen                Antwoord = 0,83
+a % b;        // Modulo               Antwoord = 5
+a++ && ++a;   // Increment            Antwoord = 6
+a-- && --a;   // Decrement            Antwoord = 4
+a += 20;      // Verhoging            Antwoord = 25       => a = a + 20;
 ```
 
 ?> Zoals reeds vermeld bij [primitieve datatypes](#primitieve-datatypes) kan met de methode `typeof` het datatype achterhaald worden.
@@ -247,13 +247,13 @@ Als de operator als **prefix** is, zal het de waarde retourneren na ophogen. Bij
 let a = 5;
 let b = 6;
 
-a == b; // a is gelijk aan b => false
-a === b; // a is gelijk aan b (waarde als datatype) => false
-a !== b; // a is niet gelijk aan b => true
-a < b; // a is kleiner dan b => true
-a > b; // a is groter dan b => false
-a <= b; // a is kleiner of gelijk aan b => true
-a >= b; // a is groter of gelijk aan b => false
+a == b;     // a is gelijk aan b => false
+a === b;    // a is gelijk aan b (waarde als datatype) => false
+a !== b;    // a is niet gelijk aan b => true
+a < b;      // a is kleiner dan b => true
+a > b;      // a is groter dan b => false
+a <= b;     // a is kleiner of gelijk aan b => true
+a >= b;     // a is groter of gelijk aan b => false
 ```
 
 ?> het verschil tussen `==` en `===` is dat bij een `===` vergelijking er zal gekeken worden als de waardes en dataype gelijk zijn aan elkaar.
@@ -355,33 +355,179 @@ while (x >= y) {
 
 ### Do...While
 
-!! Hier gestopt
+Bij een `do...while` lus wordt de voorwaarde om verder te lussen aangegven na het do-statement. Dit wilt zeggen dat de voorwaarde gecontroleerd wordt nadat het do-statement is uitgevoerd.
+
+```js
+do {
+  // Code die uitgevoerd moet worden
+} while (x >= y);
+```
 
 ### For
 
+De `for` lus wordt voornamelijk gebruikt wanneer je op voorhand weet hoeveel keer een lus moet worden uitgevoerd. Je moet natuurlijk die regel niet strikt opvolgen.
+Een `for`-lus is een lusstructuur waarbij de **initialisatie, lusvoorwaarde** en **eindstatements** in een compact geheel worden geplaatst.
+
+```js
+for (initialisatie; lusvoorwaarde; eindstatement) {
+  // Doe iets heel de tijd de lus loopt
+}
+```
+
 ### For...In
+
+Met een `for…in`-lus kun je ondermeer **objecten** gaan doorzoeken. We gaan dit gebruiken wanneer we zelf
+Javascript-objecten (JSON) aanmaken.
+
+```js
+for (x in y) {
+  // Doe iets
+}
+```
 
 ### Break
 
+Met een break statement kun je de lus abrupt laten en stoppen en wordt er verder gegaan met de code na de lus
+
+```js
+let i = 0;
+for (i = 1; i <= 10; i++) {
+  if (i == 3) {
+    break;
+  }
+}
+```
+
 ### Continue
+
+Continue laat in tegenstelling tot de break niet de lus stoppen maar zal een beurt over slaan. Als de continue voor komt in een lus wordt de node die nog zou moeten worden uitgevoerd niet meer uitgevoerd. De lus blijft wel draaien, zolang er nog steeds wordt voldaan aan de voorwaarde.
 
 ## Functies
 
+**Functies** zorgen ervoor om in onze code, codeherhaling te vermijden.
+
+!> Functies terug overlopen en beschrijving verbeteren!
+
+### Simpele functie
+
+#### Aanmaken van een functie
+
+```js
+function MijnFunctie() {
+  // Hier is de code die moet gebeuren
+}
+```
+
+#### Aanroepen van de functie
+
+```js
+MijnFunctie();
+```
+
+#### Waarden retourneren
+
 ### Annonieme functies
+
+Een **annonieme** functie is een functie die onmiddelijk na een eventlistener geschreven word. Zonder deze in een apparte functie-blok te voorzien.
+
+```js
+btnClick.addEventListener("click", function () {
+  alert("Knop is aangeklikt");
+});
+```
 
 ### Functie als variabel
 
-### Arrow functies
+```js
+const VariabelFunctie = functie(x){
+  console.log(x);
+}
+
+VariabelFunctie(x);
+```
+
+### Arrow functies (fat arrow)
+
+Door gebruik te maken van de arrow-functies vermijden we het gebruik van het herhaalde keywoord `function` in de code.
+
+```js
+const Verdubbel = (a) => a * 2;
+Verdubbel(2);
+
+let btnClick = document.querySelector("#btnClick").addEventListener("click", () => {
+    console.log("Knop is geklikt");
+  });
+```
 
 ## Objecten
 
 ### String object
 
+Alle tekenreeksen worden in **Javascript** gezien als een `String`. Elke `String` vormt een object die een eigenschap van `length` heeft.
+
+Om een nieuwe lege **String** aan te maken kunnen we gebruik maken van het keyword `new`. Dit zal een lege (null) instantie aanmaken van het object `String`.
+
+```js
+let tekens = new String();
+```
+
+``` js
+toUpperCase()       // Zet de tekenreeks om in hoofdletters
+.toLowerCase()      // Zet de tekenreeks om in kleine letters
+.substring(0,5)     // Retourneert een deel uit een string met een meegegeven begin-en eindpositie.
+.substr(0,5)        // Retourneert een deel uit een string met een meegegeven beginpositie en het aantal tekens
+.concat()           // Voegt tekenreeksen samen
+.indexOf(‘x’)       // Retourneert de eerste positie van een meegegeven argument. Je kan als 2de argument de startpositie voor het zoeken weergeven
+.lastIndexOf(‘x’)   // Retourneert de laatste positie van een meegegeven tekstdeel
+.charAt(5)          // Retourneert het teken op de aangegeven positie
+.split(‘;’)         // Splitst de tekenreeks in een Array, met de aangegeven delimiter of scheidingsteken (in het voorbeeld een kommapunt)
+.replace(‘x’,’X’)   // Wijzigt het eerste overeenkomstig karakter in een string naar een nieuwe waarde.
+```
+
 ### Number object
+
+``` js
+let getal = 55;
+
+```
 
 ### Math object
 
+``` js
+
+.round(x)   //Afronden tot een integer Groter of gelijk aan 0.5 : afronding naar boven Kleiner dan 0.5 : afronding naar beneden
+.random     //Willekeurig getal tussen 0 en 1
+.abs(x)     //Absolute waarde van een getal
+.sin(x)     //Sinus
+.cos(x)     //Cosinus
+.tan(x)     //Tangens
+.asin(x)    //Boogsinus
+.acos(x)    //Boogcosinus
+.atan(x)    //Boogtangens
+.log(x)     //Natuurlijke logaritme : loge(x)
+.exp(x)     //exponentieel
+.sqrt(x)    //Vierkantwortel
+.ceil(x)    //Gehele waarde die groter of gelijk is
+.floor(x)   //Gehele waarde die kleiner of gelijk is
+.pow(x,y)   //x^y
+.min(x,y)   //Kleinste waarde van opgegeven parameters
+.max(x,y)   //Grootste waarde van opgegeven parameters
+
+```
+
 ### Date object
+
+``` js
+.getTime()      // Tijd verstreken sinds 1 januari 1970 00:00:00 in miliseconden
+.getSeconds()   // Aantal seconden
+.getMinutes()   // Aantal minute
+.getHours()     // Aantal uren
+.getDay()       // Weekdag (0=zondag, 6=zaterdag)
+.getDate()      // Dag van de maand
+.getMonth()     // Maand van het jaar (0=januari, 11=December)
+.getFullYear()  // Jaartal met 4 cijfers
+
+```
 
 ### Objecten in Javascript
 
@@ -412,14 +558,21 @@ doelArray.push(waarde);
 
 hiervoor zijn er 2 opties
 
-Manier 1
-
 ```js
-```
+let array = ["Growing", "Coders", "Are", "Awesome"];
 
-Manier 2
+function LusDoorArray () {
+  for (let index in array) {
+    console.log(array[index]);
+  }
+}
 
-```js
+function LusDoorAndereArray (){
+  for (let i =0; i< array.length; i++){
+    console.log(array[i]);
+  }
+}
+
 ```
 
 ### Functies voor arrays
@@ -448,11 +601,13 @@ Voorbeeld: `TypedArray.forEach(callback[, thisArg])`
 .every()            // Gaat na of alle elementen in een Array aan bepaalde voorwaarden voldoen
 .filter()           // Retourneert een Array met alle elementen voldaan aan de filter voorwaarden
 .find()             // Retourneert het eerste element van de Array dat aan de meegestuurde voorwaarde voldoet
-.findIndex()        //
-.indexOf()          //
-.lastIndexOf()      //
-.includes()         //
-.some()             //
+.findIndex()        // Retourneert de indexwaarde van het eerste element van de Array die aan de meegestuurde voorwaarde voldoet
+.indexOf()          // Retourneert de index van het eerste element van een array dat een bepaalde waarde heeft. Indien niet gevonden wordt er -1 geretourneerd.
+                    // Optioneel kan aangegeven worden vanaf welke index er gezocht moet worden.
+.lastIndexOf()      // Retourneert de index van het laatste element van een array dat een bepaalde waarde heeft. Indien niet gevonden wordt er -1 geretourneerd.
+                    // Optioneel kan aangegeven worden vanaf welke index er gezocht moet worden
+.includes()         // Retourneert of een array een element bevat met de opgegeven waarde 
+.some()             // Retourneert of er één element van een array aan een bepaalde voorwaarde voldoet.
 .map()              // Retourneert een array waarbij een bepaalde functie is uitgevoerd op alle elementen van de originele array.
 .reduce()           // Retourneert 1 waarde na het uitvoeren van de meegestuurde reducer functie.
 ```
