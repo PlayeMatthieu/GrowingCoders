@@ -496,7 +496,7 @@ let getal = 55;
 ``` js
 
 .round(x)   //Afronden tot een integer Groter of gelijk aan 0.5 : afronding naar boven Kleiner dan 0.5 : afronding naar beneden
-.random     //Willekeurig getal tussen 0 en 1
+.random(x)   //Willekeurig getal tussen 0 en 1
 .abs(x)     //Absolute waarde van een getal
 .sin(x)     //Sinus
 .cos(x)     //Cosinus
@@ -572,6 +572,12 @@ function LusDoorAndereArray (){
     console.log(array[i]);
   }
 }
+
+```
+
+#### Lussen door 2 arrays en gelijkwaardige uithalen
+
+```js
 
 ```
 
