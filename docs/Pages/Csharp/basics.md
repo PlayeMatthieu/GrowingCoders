@@ -8,3 +8,25 @@
 ``` csharp
 console.log("dit is een c# log");
 ```
+
+## .Net Framework
+
+## Variabelen
+
+## Methoden
+
+## Selecties
+
+## Enums
+
+## Arrays
+
+## Collections
+
+## Lussen
+
+## Errors and Exceptions
+
+## Klassen & Obejcten
+
+## Properties
